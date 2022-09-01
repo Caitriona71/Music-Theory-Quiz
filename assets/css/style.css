@@ -6,11 +6,12 @@ h1 {
 }
 
 body {
-background-image: url("../images/music-background.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-position-y: 100px;
-width: 100%;
-overflow: hidden;
+    height: 100%;
+    margin: 0;
 }
 
+.bg {
+    background-image: url("assets/images/music-background.jpg"), ("assets/images/music-clef2.png");
+    height: 100%;
+   
+}
