@@ -9,3 +9,24 @@ function check (){
     var q8 = document.quiz.q8.value;
     var q9 = document.quiz.q9.value;
 }
+var correct = 0;
+
+if (q1 == "Treble Clef"){
+    correct+2;
+}
+
+if (q1 == "Tenor Clef"){
+    correct+2;
+}
+
+if (q1 == "Bass Clef"){
+    correct+2;
+}
+
+if (q1 == "Alto Clef"){
+    correct+2
+}
+
+document.getElementById("after_submit").style.visibility="visible";
+
+document.getElementById("number_correct").innerHTML = "you got " + correct + " correct.";
