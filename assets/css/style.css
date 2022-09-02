@@ -13,6 +13,7 @@ body {
 form {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+    margin-left: 20px;
 
 }
 
@@ -31,4 +32,8 @@ form {
     width: 99%;
     background: url("../images/header-image.png") no-repeat fixed center;
     background-size: cover;
+}
+
+.music-theory-images {
+    margin-left: 30pt;
 }
