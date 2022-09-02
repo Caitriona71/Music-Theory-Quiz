@@ -11,22 +11,155 @@ function check (){
 }
 var correct = 0;
 
-if (q1 == "Treble Clef"){
-    correct+2;
+if (q1 == "Treble Clef") {
+    correct++;
 }
 
 if (q1 == "Tenor Clef"){
-    correct+2;
+    correct++;
 }
 
 if (q1 == "Bass Clef"){
-    correct+2;
+    correct++;
 }
 
 if (q1 == "Alto Clef"){
-    correct+2
+    correct++
 }
+
+if (q2 == "Crotchet Rest"){
+    correct++;
+}
+
+if (q2 == "Semi-Quaver Rest"){
+    correct++;
+}
+
+if (q2 == "Minim Rest"){
+    correct++;
+}
+
+if (q2 == "Quaver Rest"){
+    correct++
+}
+
+if (q3 == "A Minor"){
+    correct++;
+}
+
+if (q3 == "E Major"){
+    correct++;
+}
+
+if (q3 == "D Major"){
+    correct++
+}
+
+if (q3 == "C Minor"){
+    correct++;
+}
+
+if (q4 == "Cymbals"){
+    correct++;
+}
+
+if (q4 == "Xylophone"){
+    correct++;
+}
+
+if (q4 == "Side Drum"){
+    correct++;
+}
+
+if (q4 == "Timpani"){
+    correct++
+}
+
+if (q5 == "Quaver Rest"){
+    correct++;
+}
+
+if (q5 == "Semibreve Rest"){
+    correct++;
+}
+
+if (q5 == "Semi-Quaver Rest"){
+    correct++;
+}
+
+if (q5 == "Minim Rest"){
+    correct++
+}
+
+if (q6 == "Two minim beats in a bar"){
+    correct++;
+}
+
+if (q6 == "Four quaver beats in a bar"){
+    correct++;
+}
+
+if (q6 == "Four minim beats in a bar"){
+    correct++;
+}
+
+if (q6 == "Four crotchet beats in a bar"){
+    correct++
+}
+
+if (q7 == "G Minor"){
+    correct++;
+}
+
+if (q7 == "C Major"){
+    correct++;
+}
+
+if (q7 == "F# Minor"){
+    correct++;
+}
+
+if (q7 == "G Major"){
+    correct++
+}
+
+if (q8 == "F"){
+    correct++;
+}
+
+if (q8 == "A"){
+    correct++;
+}
+
+if (q8 == "Middle C"){
+    correct++;
+}
+
+if (q8 == "E"){
+    correct++
+}
+
+if (q9 == "Percussion"){
+    correct++;
+}
+
+if (q9 == "Brass"){
+    correct++;
+}
+
+if (q9 == "Strings"){
+    correct++;
+}
+
+if (q9 == "Woodwind"){
+    correct++
+}
+
 
 document.getElementById("after_submit").style.visibility="visible";
 
 document.getElementById("number_correct").innerHTML = "you got " + correct + " correct.";
+
+function myFunction() {
+    location.reload();
+}

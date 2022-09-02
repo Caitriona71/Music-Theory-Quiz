@@ -37,3 +37,7 @@ form {
 .music-theory-images {
     margin-left: 30pt;
 }
+
+#after_submit {
+    visibility: hidden;
+}
