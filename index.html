@@ -10,19 +10,16 @@
     <script src="https://kit.fontawesome.com/18e4246add.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/script.js"></script>
+    
     <title>Music Theory Quiz with Images</title>
 </head>
-<header>
-   
-    
-</header>
 <body>
     <div id="header-image">
     <h1>Music Theory Quiz</h1>
     <div>      
-            <form id="music-theory-quiz" name="music-theory-quiz">
-                <p><br><img src="assets/images/clef2.png" id="symbols" height=50pt; width=50pt; class="music-theory-images"></br></p>
+            <form id="musictheoryquiz" name="musictheoryquiz">
+
+                <p><br><img src="assets/images/clef2.png" height=50pt; width=50pt; class="musictheory_images"></br></p>
                 <p>1. What clef is this?</p>
                 <input type="radio" id="multiple choice" name="q1" value="Treble Clef">Treble Clef<br>
                 <input type="radio" id="multiple choice" name="q1" value="Tenor Clef">Tenor Clef<br>
@@ -95,7 +92,7 @@
                 <br>
                 <br>
 
-                <input id="button" type="button" value="Submit" onclick="check();">
+                <input id="button" type="submit" value="Submit">
     
     </form>
 
@@ -103,12 +100,9 @@
     <p id="number_correct"></p>
     </div>
 
-    <button onclick="myFunction()">Try again</button>
+    <button onclick="myFunction()">Restart</button>
 
-    <footer>
-
-    </footer>
-    
+    <script src="assets/js/script.js"></script>
     
     
     

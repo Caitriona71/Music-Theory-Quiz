@@ -17,14 +17,6 @@ form {
 
 }
 
-#example1 {
-    border: 2px solid black;
-    padding: 25px;
-    background: url(mountain.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-  }
-
 #header-image {
     border: 6px solid goldenrod;
     border-radius: 10px;
@@ -34,7 +26,7 @@ form {
     background-size: cover;
 }
 
-.music-theory-images {
+.musictheory_images {
     margin-left: 30pt;
 }
 
